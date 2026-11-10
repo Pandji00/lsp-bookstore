@@ -1,0 +1,66 @@
+/* ===== BLUE-PURPLE THEME ===== */
+:root {
+    --bs-primary: #635bdb;
+    --bs-primary-rgb: 99, 91, 219;
+    --bs-link-color: #635bdb;
+    --bs-link-hover-color: #4f46b8;
+    --theme-blue: #4f7cff;
+    --theme-purple: #635bdb;
+    --theme-deep: #4438a8;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f6ff;
+    color: #212529;
+}
+.navbar.bg-primary {
+    background: linear-gradient(105deg, var(--theme-blue), var(--theme-purple)) !important;
+    box-shadow: 0 3px 12px rgba(79, 70, 184, .18);
+}
+.navbar.bg-dark {
+    background: linear-gradient(105deg, #343b78, #5144a8) !important;
+}
+.btn-primary, .bg-primary {
+    background-color: var(--theme-purple) !important;
+    border-color: var(--theme-purple) !important;
+}
+.btn-primary:hover, .btn-primary:focus {
+    background-color: var(--theme-deep) !important;
+    border-color: var(--theme-deep) !important;
+}
+.btn-outline-primary {
+    color: var(--theme-purple) !important;
+    border-color: var(--theme-purple) !important;
+}
+.btn-outline-primary:hover {
+    color: #fff !important;
+    background-color: var(--theme-purple) !important;
+}
+a { color: var(--bs-link-color); }
+a:hover { color: var(--bs-link-hover-color); }
+.book-card {
+    transition: transform 0.2s, box-shadow 0.2s;
+    height: 100%;
+    border: none;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.book-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(99, 91, 219, .18);
+}
+.book-img { height: 250px; object-fit: cover; width: 100%; }
+.book-price { font-weight: 600; color: #635bdb; }
+.book-meta { font-size: 0.85rem; color: #6c757d; }
+.flash-message { animation: fadeOut 5s forwards; }
+@keyframes fadeOut { 0% { opacity: 1; } 80% { opacity: 1; } 100% { opacity: 0; } }
+.cart-table td { vertical-align: middle; }
+.qty-input { width: 60px; text-align: center; }
+.order-summary { background-color: #f1f0ff; border-radius: 8px; }
+.admin-sidebar { min-height: 100vh; }
+.table-actions .btn { margin-right: 0.25rem; }
+.form-control:focus, .form-select:focus {
+    border-color: #8b83f0;
+    box-shadow: 0 0 0 .25rem rgba(99, 91, 219, .2);
+}
+@media (max-width: 768px) { .book-img { height: 200px; } }

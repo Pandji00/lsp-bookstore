@@ -1,0 +1,10 @@
+[
+ {"id":1,"title":"The Great Gatsby","author":"F. Scott Fitzgerald","category":"Fiksi","categoryId":1,"price":85000,"image":"great-gatsby.jpg","description":"Novel tentang decadence, idealism, dan American Dream."},
+ {"id":2,"title":"To Kill a Mockingbird","author":"Harper Lee","category":"Fiksi","categoryId":1,"price":95000,"image":"mockingbird.jpg","description":"Kisah Scout Finch tentang keadilan dan pertumbuhan moral."},
+ {"id":3,"title":"Clean Code","author":"Robert C. Martin","category":"Teknologi","categoryId":3,"price":150000,"image":"clean-code.jpg","description":"Panduan menulis kode yang mudah dibaca dan dirawat."},
+ {"id":4,"title":"Atomic Habits","author":"James Clear","category":"Pengembangan Diri","categoryId":5,"price":110000,"image":"atomic-habits.jpg","description":"Cara membangun kebiasaan baik melalui perubahan kecil."},
+ {"id":5,"title":"Rich Dad Poor Dad","author":"Robert Kiyosaki","category":"Bisnis","categoryId":4,"price":75000,"image":"rich-dad.jpg","description":"Dua cara pandang tentang uang dan keuangan."},
+ {"id":6,"title":"Sapiens","author":"Yuval Noah Harari","category":"Non-Fiksi","categoryId":2,"price":120000,"image":"sapiens.jpg","description":"Sejarah singkat umat manusia."},
+ {"id":7,"title":"The Psychology of Money","author":"Morgan Housel","category":"Bisnis","categoryId":4,"price":90000,"image":"psychology-money.jpg","description":"Pelajaran tentang kekayaan, keserakahan, dan uang."},
+ {"id":8,"title":"The Lean Startup","author":"Eric Ries","category":"Teknologi","categoryId":3,"price":130000,"image":"lean-startup.jpg","description":"Pendekatan ilmiah membangun startup."}
+]
